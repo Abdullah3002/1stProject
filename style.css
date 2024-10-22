@@ -1,0 +1,368 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-container{
+    background: rgb(255, 248, 243);
+    
+
+display: flex;
+justify-items: center;
+
+padding: 20px;
+}
+.developer{
+    background-image: url('images/developer.png');
+    width: 136px;
+height: 777px;
+background-repeat: no-repeat;
+
+}
+.a{
+color:  rgb(253, 110, 10);
+    font-family: Arial, sans-serif;
+font-size: 45px;
+font-weight: 800;
+}
+.zubaer{
+    font-family: Arial, sans-serif;
+font-size: 45px;
+font-weight: 800;
+color: rgb(24, 24, 24);
+margin-left: 55px;
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1000px;
+    
+}
+.part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part2{
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background covers the entire container */
+    background-position: 10px center; /* Move the background image 60px to the right */
+    margin-left: 10px; /* Moves the entire element 60px to the right */
+    width: 100%;
+    height: auto; /* Adjust the height as per your content */
+    position: relative;
+   
+}
+button{
+    width: 150px;
+height: 64px;
+border-radius: 5px;
+
+background: rgb(253, 110, 10);
+color: white;
+border: solid;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.d1{
+    display: flex;
+     gap: 28px;
+}
+.d1 p{
+    color: rgb(71, 71, 71);
+  
+font-size: 20px;
+font-weight: 400;
+margin-top: 20px;
+}
+.part1 h2{
+    color: rgb(71, 71, 71);
+
+font-size: 45px;
+font-weight: 600;
+
+}
+.part1 h4{
+    color: rgb(24, 24, 24);
+
+font-size: 85px;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 28px;
+
+}
+.shot{
+    color: rgb(117, 117, 117);
+
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 35px;
+}
+.part1{
+    margin-top: 40px;
+    margin-left: 55px;
+   
+}
+.part2 img{
+    
+    margin-left: 180px;
+    
+}
+.about{
+    border: 0;
+    margin: 0;
+    padding: 134px;
+}
+.about-border{
+   
+border-radius: 10px;
+
+background: rgb(255, 248, 243);
+/* padding: 200px; */
+/* Rectangle 4 */
+/* position: absolute; */
+width: 1200px;
+height: 550px;
+left: 230px;
+right: 230px;
+top: 967px;
+bottom: 2739px;
+padding-left: 280px;
+padding-top: 250px;
+margin-left: 70px;
+}
+.about-main{
+    width: 950px;
+    /* position: absolute; */
+height: 350px;
+display: flex;
+flex-direction: column;
+/* justify-content: flex-start; */
+align-items: center;
+gap: 30;
+padding: 0px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+padding: 20px;
+
+}
+.name{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    
+}
+.about-main h2{
+    color: rgb(24, 24, 24);
+
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-main p{
+    color: rgb(117, 117, 117);
+
+font-size: 18px;
+font-weight: 400;
+
+
+text-align: center;
+}
+.what{
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.do h2{
+    color: rgb(24, 24, 24);
+
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.do p{
+ 
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+padding-left: 150px;
+padding-right: 150px;
+}
+.box1{
+    width: 267px;
+height: 250px;
+border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+padding: 32px;
+
+}
+.box1 p{
+    font-size: 16px;
+font-weight: 400;
+color: rgb(117, 117, 117);
+
+}
+.box{
+    display: flex;
+    gap: 20px;
+    margin-left: 105px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.summary{
+    padding-left: 150px;
+padding-right: 150px;
+padding-top: 80px;
+/* padding-bottom: 200px; */
+
+}
+.summary h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 140px;
+    margin-left: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   
+}
+svg{
+    cursor: pointer;
+}
+.fr1{
+    width: 511px;
+height: 175px;
+
+}
+.fr1 h1{
+    font-size: 30px;
+    
+font-weight: 700;
+color: rgb(71, 71, 71);
+}
+.fr1 h4{
+    font-size: 25px;
+font-weight: 700;
+color: rgb(71, 71, 71);
+}
+.fr1 p{
+    font-size: 20px;
+font-weight: 600;
+color: rgb(117, 117, 117);
+}
+.fr h5{
+    font-size: 16px;
+font-weight: 400;
+color: rgb(117, 117, 117);
+}
+.cv{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.footer{
+    background: rgb(255, 248, 243);
+   padding: 80px 150px 80px 150px ;
+}
+.divide{
+    display: flex;
+    gap: 100px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+
+/* White Color */
+background: rgb(255, 255, 255);
+border: solid rgb(255, 255, 255);
+
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.contact h4{
+    font-size: 35px;
+font-weight: 700;
+color: rgb(24, 24, 24);
+
+}
+#message{
+    width: 461px;
+height: 180px;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contact-form input {
+    height: 40px; /* Smaller height for name and email */
+  }
+  
+  .contact-form textarea {
+    resize: none; /* Prevent resizing */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .let{
+    padding-left: 60px;
+    padding-top: 150px;
+  }
+  
+  @media screen {
+    
+  }
